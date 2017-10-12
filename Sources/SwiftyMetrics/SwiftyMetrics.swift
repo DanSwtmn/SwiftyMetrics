@@ -1,6 +1,9 @@
 struct SwiftyMetrics {
     public func memoryMetrics() {
         let memory = Memory()
+        func getMemory() -> UInt64{
+            memory.getMemory()
+        }
         func startMemory() {
             memory.startMemory()
         }

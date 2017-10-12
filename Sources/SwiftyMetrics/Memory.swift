@@ -40,5 +40,8 @@ class Memory {
         endMem = report_memory
         return endMem - startMem
     }
+    func getMemory() -> UInt64{
+        return report_memory
+    }
 }
 
